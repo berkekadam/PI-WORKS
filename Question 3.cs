@@ -1,0 +1,14 @@
+int a;
+int b;
+String input;
+Console.WriteLine("Please give a number as 1st variable: ");
+input = Console.ReadLine();
+a = Convert.ToInt32(input);
+Console.WriteLine("Please give a number as 2nd variable: ");
+input = Console.ReadLine();
+b = Convert.ToInt32(input);
+a=a+b;  
+b=a-b;  
+a=a-b;
+Console.WriteLine("The value of the 1st variable = {0}", a);
+Console.WriteLine("The value of the 2nd variable = {0}", b);
